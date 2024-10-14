@@ -1,20 +1,24 @@
 # Práctica-2-Lenguajes-de-Programación
 
-Integrantes: -David Alejandro Gutiérrez Leal
+Integrantes:
 
-             -Sofía Velez Ramirez
+-David Alejandro Gutiérrez Leal
+
+-Sofía Velez Ramirez
 
 # Manual de Uso: Distribución de la Herencia en base al Nivel de Consanguinidad
 
 Este programa en Prolog implementa un sistema para distribuir una herencia de acuerdo al nivel de consanguinidad de los herederos con el fallecido. El código evalúa las relaciones familiares y ajusta los porcentajes de la herencia asignada según sea necesario, asegurando que el total distribuido no supere el 100%.
 
 # Requisitos
+
 -Software necesario: SWI-Prolog.
--Instalación:
-Descarga SWI-Prolog desde swi-prolog.org.
+
+-Instalación: Descarga SWI-Prolog desde swi-prolog.org.
 Sigue las instrucciones de instalación para tu sistema operativo.
 
 # Modificar el Archivo para Probar Diferentes Casos
+
 Debes reescribir el archivo para probar diferentes escenarios. a continuación, tendrás unos ejemplos de relaciones familiares para probar la ejecución del código por tu cuenta:
 
 # Ejemplo 1:
@@ -75,12 +79,14 @@ cousin(aerith, mario).
 cousin(aerith, gru).
 
 # ¿Cómo ejecutar el código?
+
 Para ejecutar el programa, utiliza el siguiente comando en el entorno de Prolog:
 distributeInheritance(Total, Distribution).
 
 Parámetros:
 
 -Total: Este es el monto total de la herencia que se desea distribuir.
+
 -Distribution: Esta variable devolverá una lista con los herederos, porcentajes y monto que les corresponden de la herencia.
 
 # Ejemplos de ejecución:
