@@ -15,6 +15,7 @@ Este programa en Prolog implementa un sistema para distribuir una herencia de ac
 -Software necesario: SWI-Prolog.
 
 -Instalación: Descarga SWI-Prolog desde swi-prolog.org.
+
 Sigue las instrucciones de instalación para tu sistema operativo.
 
 # Modificar el Archivo para Probar Diferentes Casos
@@ -23,64 +24,95 @@ Debes reescribir el archivo para probar diferentes escenarios. a continuación, 
 
 # Ejemplo 1:
 % Definición de géneros 
+
 male(jesus).
+
 male(juanito).
+
 male(armando).
+
 male(pedro).
 
 female(ana).
 
 % Definición del difunto
+
 deceased(jesus).  % jesus es la persona difunta
 
 % Family relations 
+
 parent(jesus, ana). 
+
 parent(jesus, juanito).
+
 brother(jesus, armando).
+
 cousin(jesus, pedro).
 
 # Ejemplo 2:
 % Definición de géneros 
+
 male(juan).
+
 male(pedro).
 
 female(ana).
+
 female(maria).
 
 % Definición del difunto
+
 deceased(juan).  % juan es la persona difunta
 
 % Family relations 
+
 parent(juan, ana).
+
 nephew(juan, nacho).
+
 nephew(juan, veronica).
+
 nephew(juan, john).
+
 grandchild(juan, pepo).
+
 grandchild(juan, nestor).
 
 # Ejemplo 3:
 % Definición de géneros 
+
 male(zack).
+
 male(cloud).
+
 male(mario).
+
 male(gru).
 
 female(aerith).
+
 female(martha).
 
 % Definición del difunto
+
 deceased(aerith).  % aerith es la persona difunta
 
 % Family relations 
+
 parent(aerith, martha).
+
 brother(zack, aerith).
+
 brother(cloud, aerith).
+
 cousin(aerith, mario).
+
 cousin(aerith, gru).
 
 # ¿Cómo ejecutar el código?
 
 Para ejecutar el programa, utiliza el siguiente comando en el entorno de Prolog:
+
 distributeInheritance(Total, Distribution).
 
 Parámetros:
@@ -90,8 +122,11 @@ Parámetros:
 -Distribution: Esta variable devolverá una lista con los herederos, porcentajes y monto que les corresponden de la herencia.
 
 # Ejemplos de ejecución:
+
 distributeInheritance(100000, Distribution).
+
 distributeInheritance(250000, Distribution).
+
 distributeInheritance(150000, Distribution).
 
 
