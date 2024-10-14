@@ -2,9 +2,9 @@
 
 Integrantes:
 
--David Alejandro Gutiérrez Leal
-
 -Sofía Velez Ramirez
+
+-David Alejandro Gutiérrez Leal
 
 # Manual de Uso: Distribución de la Herencia en base al Nivel de Consanguinidad
 
@@ -128,6 +128,17 @@ distributeInheritance(100000, Distribution).
 distributeInheritance(250000, Distribution).
 
 distributeInheritance(150000, Distribution).
+
+# Observacion importante: 
+
+-Simetría en las Relaciones: Es importante tener en cuenta que, en las relaciones familiares definidas en el código, no siempre se respeta la simetría. Por ejemplo, cuando se define un primo, el difunto debe ser mencionado primero en la relación. Esto significa que la relación debe estar escrita como cousin(muerto, Y) en lugar de cousin(Y, muerto).
+
+
+Ejemplo: En el caso de Zack, si él es el difunto y se quiere establecer que Pedro es su primo, la relación se debe escribir como: cousin(zack, pedro).
+
+
+Esto asegura que el programa entienda que Zack es el individuo en cuestión que está distribuyendo la herencia.
+
 
 
 
