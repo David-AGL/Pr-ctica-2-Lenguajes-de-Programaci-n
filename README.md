@@ -74,3 +74,20 @@ brother(cloud, aerith).
 cousin(aerith, mario).
 cousin(aerith, gru).
 
+# ¿Cómo ejecutar el código?
+Para ejecutar el programa, utiliza el siguiente comando en el entorno de Prolog:
+distributeInheritance(Total, Distribution).
+
+Parámetros:
+
+-Total: Este es el monto total de la herencia que se desea distribuir.
+-Distribution: Esta variable devolverá una lista con los herederos, porcentajes y monto que les corresponden de la herencia.
+
+# Ejemplos de ejecución:
+distributeInheritance(100000, Distribution).
+distributeInheritance(250000, Distribution).
+distributeInheritance(150000, Distribution).
+
+
+
+
