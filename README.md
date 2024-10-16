@@ -6,6 +6,10 @@ Integrantes:
 
 -David Alejandro Gutiérrez Leal
 
+# Link al video explicativo
+
+https://drive.google.com/file/d/1QfW-8x0v3pRUfFixbLRIKcapJd7ABIt4/view?usp=drivesdk
+
 # Manual de Uso: Distribución de la Herencia en base al Nivel de Consanguinidad
 
 Este programa en Prolog implementa un sistema para distribuir una herencia de acuerdo al nivel de consanguinidad de los herederos con el fallecido. El código evalúa las relaciones familiares y ajusta los porcentajes de la herencia asignada según sea necesario, asegurando que el total distribuido no supere el 100%.
