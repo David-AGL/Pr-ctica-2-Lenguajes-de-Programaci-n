@@ -2,7 +2,7 @@
 
 Integrantes:
 
--Sofía Velez Ramirez
+-Sofía Vélez Ramírez
 
 -David Alejandro Gutiérrez Leal
 
